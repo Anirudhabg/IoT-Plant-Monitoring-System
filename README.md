@@ -27,11 +27,28 @@ This project provides a simple IoT-based solution for monitoring temperature, hu
    - Connect the LCD's SDA pin to the D2 pin of the NodeMCU.
 
 3. **Blynk Setup**:
-   - Create a Blynk account and project.
-   - Obtain the authentication token for your Blynk project.
-   - Update the `BLYNK_AUTH_TOKEN`, `ssid`, and `pass` variables in the `plant_monitor.ino` file with your Blynk authentication token and WiFi credentials.
+   - Create a Blynk account.
+   - Go to Developer Zone and click on `New Template`.
+   - Give a name and set Hardware to `ESP8266`, connection type WiFi.
+   - After creation of New Template, open that template click on `Data Streams` -> `New Datastream` -> `Virtual Pin`.
+   - Give the name as `Temperature` and set virtual pin to `V0`. Also set the data type to `double` and MAX value to 100.
+   - Again click on `New Datastream` -> `Virtual Pin`.
+   - Give the name as `Humidity` and set virtual pin to `V1`. Also set the data type to `double` and MAX value to 100.
+   - Again click on `New Datastream` -> `Virtual Pin`.
+   - Give the name as `Soil Moisture` and set virtual pin to `V3`. Let the datatype be integer and set MAX value to 100.
+   - Go to `Event and Notification` -> `Create Event`.
+   - In General Give the `event name`, set the type to `Warning`. Make the below changes in `limit`.
+   - `Every 1 message will trigger the event Event will be sent to user only once per 1 minute`.
+   - Enable `Show event in Notifications section of mobile app` and `Send event to Timeline`.
+   - Go to notification -> `Enable Notifications`.
+   - Set `E-MAIL TO` and `PUSH NOTIFICATIONS TO` to `DEVICE OWNER`, and enable `Deliver push notifications as alerts`.
+   - Update the event name in the code.
+   - Go to `Web Dashboard` and click on `Guage` widget. Choose a datastream for the guage widget (Cretae 3 Guage widgets).
+   - Now go to `Devices` -> `New Devices` -> `From Template` -> Choose the created template -> Click `Done`.
+   - Copy the `BLYNK_TEMPLATE_ID`, `BLYNK_TEMPLATE_NAME`, and `BLYNK_AUTH_TOKEN` and updtae it in the code.
+   - Update the `BLYNK_AUTH_TOKEN`, `ssid`, and `pass` variables in the `app.ino` file with your Blynk authentication token and WiFi credentials.
 
-4. **Upload Code**: Upload the `plant_monitor.ino` sketch to your ESP8266 board using the Arduino IDE or a similar platform.
+4. **Upload Code**: Upload the `app.ino` sketch to your ESP8266 board using the Arduino IDE or a similar platform.
 
 5. **Monitor**: Open the Blynk app on your smartphone and monitor the temperature, humidity, and soil moisture levels in real-time.
 
@@ -39,15 +56,3 @@ This project provides a simple IoT-based solution for monitoring temperature, hu
 
 - Once the hardware is set up and the code is uploaded, the device will start monitoring and displaying the temperature, humidity, and soil moisture levels on the LCD display.
 - Additionally, the data can be accessed remotely using the Blynk app.
-
-## Troubleshooting
-
-- If you encounter any issues, ensure that the hardware connections are correct and that the Blynk authentication token and WiFi credentials are properly configured.
-
-## Contributing
-
-Contributions are welcome! If you have any ideas for improvement or new features, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
