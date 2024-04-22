@@ -59,6 +59,6 @@ This project provides a simple IoT-based solution for monitoring temperature, hu
 
 ### Images
 
-1. **Circuit Diagram**: [Add Circuit Diagram Image Link Here]
+1. **Circuit Diagram**: [Circuit Diagram/Circuit Diagram.png]
 2. **Web Dashboard Screenshot**: [Add Web Dashboard Screenshot Image Link Here]
 3. **Mobile Application Screenshots**: [Add Mobile Application Screenshots Image Links Here]
