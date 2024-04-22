@@ -43,9 +43,9 @@ This project provides a simple IoT-based solution for monitoring temperature, hu
    - Go to notification -> `Enable Notifications`.
    - Set `E-MAIL TO` and `PUSH NOTIFICATIONS TO` to `DEVICE OWNER`, and enable `Deliver push notifications as alerts`.
    - Update the event name in the code.
-   - Go to `Web Dashboard` and click on `Guage` widget. Choose a datastream for the guage widget (Cretae 3 Guage widgets).
+   - Go to `Web Dashboard` and click on `Guage` widget. Choose a datastream for the guage widget (Create 3 Gauge widgets).
    - Now go to `Devices` -> `New Devices` -> `From Template` -> Choose the created template -> Click `Done`.
-   - Copy the `BLYNK_TEMPLATE_ID`, `BLYNK_TEMPLATE_NAME`, and `BLYNK_AUTH_TOKEN` and updtae it in the code.
+   - Copy the `BLYNK_TEMPLATE_ID`, `BLYNK_TEMPLATE_NAME`, and `BLYNK_AUTH_TOKEN` and update it in the code.
    - Update the `BLYNK_AUTH_TOKEN`, `ssid`, and `pass` variables in the `app.ino` file with your Blynk authentication token and WiFi credentials.
 
 4. **Upload Code**: Upload the `app.ino` sketch to your ESP8266 board using the Arduino IDE or a similar platform.
@@ -56,3 +56,9 @@ This project provides a simple IoT-based solution for monitoring temperature, hu
 
 - Once the hardware is set up and the code is uploaded, the device will start monitoring and displaying the temperature, humidity, and soil moisture levels on the LCD display.
 - Additionally, the data can be accessed remotely using the Blynk app.
+
+### Images
+
+1. **Circuit Diagram**: [Add Circuit Diagram Image Link Here]
+2. **Web Dashboard Screenshot**: [Add Web Dashboard Screenshot Image Link Here]
+3. **Mobile Application Screenshots**: [Add Mobile Application Screenshots Image Links Here]
