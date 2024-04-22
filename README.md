@@ -59,6 +59,6 @@ This project provides a simple IoT-based solution for monitoring temperature, hu
 
 ### Images
 
-1. **Circuit Diagram**: [[Circuit Diagram/Circuit Diagram.png](https://github.com/Anirudhabg/NodeMCU_Based_Soil_and_Weather_data_Monitoring_system/blob/342d7cdd6d77269daf3ae2c31612f1304c4e4c68/Circuit%20Diagram/Circuit%20Diagram.png)]
-2. **Web Dashboard Screenshot**: [[Add Web Dashboard Screenshot Image Link Here](https://github.com/Anirudhabg/NodeMCU_Based_Soil_and_Weather_data_Monitoring_system/blob/f32451039ad24289d582c5b8762fdeeb1fd866a5/Application/Web%20Application.png)]
-3. **Mobile Application Screenshots**: [[Add Mobile Application Screenshots Image Links Here](https://github.com/Anirudhabg/NodeMCU_Based_Soil_and_Weather_data_Monitoring_system/blob/342d7cdd6d77269daf3ae2c31612f1304c4e4c68/Application/Mobile%20Application.jpg)]
+1. **Circuit Diagram**: [(https://github.com/Anirudhabg/NodeMCU_Based_Soil_and_Weather_data_Monitoring_system/blob/342d7cdd6d77269daf3ae2c31612f1304c4e4c68/Circuit%20Diagram/Circuit%20Diagram.png)]
+2. **Web Dashboard Screenshot**: [(https://github.com/Anirudhabg/NodeMCU_Based_Soil_and_Weather_data_Monitoring_system/blob/f32451039ad24289d582c5b8762fdeeb1fd866a5/Application/Web%20Application.png)]
+3. **Mobile Application Screenshots**: [(https://github.com/Anirudhabg/NodeMCU_Based_Soil_and_Weather_data_Monitoring_system/blob/342d7cdd6d77269daf3ae2c31612f1304c4e4c68/Application/Mobile%20Application.jpg)]
